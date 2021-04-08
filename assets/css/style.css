@@ -13,13 +13,21 @@ body {
 
 }
 
+/*allign position of logo and nav menu*/
+
+#logo,
+#menu {
+    line-height: 75px;
+
+}
+
 /* logo style*/
 h1,
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: 252525;
+    color: #252525;
 }
 
 #logo {
@@ -40,4 +48,17 @@ h2 {
     list-style-type: none;
     margin-right: 30px;
     display: inline-block;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
 }
