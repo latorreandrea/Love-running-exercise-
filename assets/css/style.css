@@ -19,15 +19,13 @@ body {
 
 /*allign position of logo and nav menu*/
 
-#logo,
-#menu {
+#logo, #menu {
     line-height: 75px;
 
 }
 
 /* logo style*/
-h1,
-h2 {
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -127,23 +125,48 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    
 }
+
 
 #right-about{
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
+    
 }
 
-#center-about{
-    padding-top: 30px;
-    width: 34%;
-    
-    display: inline-block;
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
 
-    background-color: silver;
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
 
-    
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
