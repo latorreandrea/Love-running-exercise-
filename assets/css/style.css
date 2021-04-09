@@ -194,3 +194,13 @@ hr {
     border-radius: 50%;
 
 }
+
+/*back ground images for metup*/
+
+#times {
+    background: url("../images/dublin-city.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
