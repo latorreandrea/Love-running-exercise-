@@ -170,3 +170,27 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
+#welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
+/*set central image in the ethos*/
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    
+}
+
+#circle-cover-bg{
+    background: url("../images/ethos-center-image.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+
+}
